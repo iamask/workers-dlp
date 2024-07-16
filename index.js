@@ -41,7 +41,7 @@ async function transformResponse(response) {
         }
       ]
     };
-    const webhookUrl = 'https://chat.googleapis.com/v1/spaces/AAAAaWQHvIM/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=9Vbm9QxYaca6KX9fL2HMxcjnzScG-S6kn7L27ekJ6WI';
+    const webhookUrl = 'https://chat.googleapis.com/v1/spaces/AvIM/messages?key=AIzaSyDdI0hCZtE6vySjMMxcjnzScG-S6kn7L27ekJ6WI';
     const webhookResponse = await fetch(webhookUrl, {
       method: 'POST',
       headers: {
